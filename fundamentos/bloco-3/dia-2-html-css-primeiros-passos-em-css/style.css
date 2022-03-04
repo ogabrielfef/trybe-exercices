@@ -1,0 +1,40 @@
+<styleh1 {
+    fonte-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+ul {
+    background-color: blue;
+    font=height: 30px;
+}
+
+.fundo-p-ul {
+    background-color: rgb(184, 206, 216);
+}
+
+p {
+    font-weight: 600;
+    font-size: 3em;
+}
+
+body {
+    font-size: 16px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#amarelo {
+    color: yellow;
+}
+
+#vermelho {
+    color: red;
+}
+
+#marron {
+    color: brown;
+}
+
+</style>
