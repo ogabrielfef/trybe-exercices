@@ -1,0 +1,50 @@
+.ordenada .ímpar {
+    background-color: yellow;
+    text-transform: uppercase;
+}
+
+.ordenada .par {
+    background-color: yellow;
+    color: green;
+}
+
+h1, h2, h3 {
+    color: red;
+}
+
+li {
+    font-size: 20px;
+}
+
+.linguagens .top {
+    color: blue;
+}
+
+.linguagens .Java  {
+    background-color: pink;
+}
+
+.stack:hover a {
+    color: orange; 
+    font-weight: bold;
+}
+
+.w3:hover a {
+    color: green;
+    font-weight: bold;
+}
+
+.dev:hover a {
+    color: black;
+    font-weight: bold;  
+}
+
+.dd:hover a {
+    color: yellow;
+    font-weight: bold;
+}
+
+.trybe:hover a {
+    color: green;
+    font-weight: bold;
+}
