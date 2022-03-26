@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrybeTrip</title>
+    </head>
+<body>
+    <header class="display-1"> 
+        <h1>Exercício estilizando o formulário</h1>
+    </header>
+    <main>
+        <div>
+            <header>
+                <h3>Porque você deveria ser escolhido para o TrybeTrip?</h3>
+            </header>
+            <form action="" method="get" id="formulario">
+                <label for="nome-participante">Nome:</label>
+                <input type="text" name="nome" id="nome-participante" 
+                required placeholder="Digite seu nome completo"
+                minlength="10" maxlength="40">
+                <br>
+                <br>
+                <label for="Email-participante">Email:</label>
+                <input type="email" name="Email" id="Email-participante" 
+                required placeholder="Digite seu email"
+                minlength="10" maxlength="50">
+                <br>
+                <br>
+                <p>selecione o lugar desejado:</p>
+                <label for="lugar-1">
+                    <input type="radio" id="lugar-1"   
+                    name="lugar-viagem" value="cidade" required> Cidade
+                </label>
+                <label for="lugar-2">
+                    <input type="radio" id="lugar-2"   
+                    name="lugar-viagem" value="campo" required> Campo
+                </label>
+                <label for="lugar-3">
+                    <input type="radio" id="lugar-3"   
+                    name="lugar-viagem" value="praia" required> Praia
+                </label> 
+                <label for="lugar-4">
+                    <input type="radio" id="lugar-4"   
+                    name="lugar-viagem" value="montanha" required> Montanha
+                </label>
+                <br>
+                <br>
+                <textarea maxlength="500" id="tex-area" 
+                cols="35" rows="10" required></textarea>
+                <br>
+                <br>
+                <label for="data">Data:</label>
+                <input type="date" id="data"  name="melhor-data"
+                required> 
+                <br>
+                <br>
+                <label for="check-1">
+                <input type="checkbox" value="aceito" name="check-1" checked id="check-1">
+                Gostaria de receber outras incríveis oportunidades 
+                oferecidas pela Trybe?
+                </label>
+                <br>
+                <label for="check-2">
+                <input type="checkbox" value="aceito" name="check-2" checked id="check-2">
+                Concordo que imagens das minhas férias poderão ser 
+                usadas na divulgação de concursos futuros.
+                </label>
+                <br>
+                <br>
+                <button type="submit" id="enviar">Enviar</button>
+                <button type="reset">Limpar</button>
+            </form>
+        </div>
+    </main>
+    <link rel="stylesheet" href="dist/css/DatePickerX.min.css">
+    <script src="dist/js/DatePickerX.min.js"></script>
+</body>
+</html>
