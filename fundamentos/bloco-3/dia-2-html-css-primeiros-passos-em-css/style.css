@@ -1,4 +1,4 @@
-<styleh1 {
+h1 {
     fonte-size: 65px;
     color: orange;
     font-family: sans-serif;
@@ -7,7 +7,7 @@
 
 ul {
     background-color: blue;
-    font=height: 30px;
+    font-weight: 30px;
 }
 
 .fundo-p-ul {
@@ -36,5 +36,3 @@ body {
 #marron {
     color: brown;
 }
-
-</style>
