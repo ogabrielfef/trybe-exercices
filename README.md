@@ -3,7 +3,7 @@
 #### Organização do repositório: 
  - o repositório está dividido entre os _módulos_ estudados na trybe: 
 1. __Fundamentos__ 📝
-2. __Front-end__ ⌛
+2. __Front-end__ 📝
 3. __Back-end__ ⌛
 4. __Ciência da computação__ ⌛
 
